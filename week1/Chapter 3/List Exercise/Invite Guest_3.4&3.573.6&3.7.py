@@ -40,6 +40,10 @@ print(message)
 message = "\n"+Guests[4].title() + ", I invite you to dinner with me."
 print(message)
 
+#3.9晚餐嘉宾
+print("I invite "+ str(len(Guests)) +" individuals to dinner with me.")
+
+
 #3.7缩减名单
 print("\nDistinguished guests," + "\n  I’m sorry, the newly purchased table cannot be delivered,"
 "so I can only invite two guests to complete it together")
@@ -61,6 +65,8 @@ del Guests[1]
 print(Guests)
 del Guests[0]
 print(Guests)
+
+
 
 
 
