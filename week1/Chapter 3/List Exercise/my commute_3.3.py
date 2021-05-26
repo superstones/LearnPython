@@ -1,3 +1,4 @@
+#3.3自己的列表
 traffic=["bicycle", "car", "train", "plane"]
 message="I don`t like "+ traffic[0]
 print(message)
