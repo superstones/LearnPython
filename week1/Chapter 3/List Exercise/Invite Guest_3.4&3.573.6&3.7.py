@@ -57,7 +57,8 @@ print(Guests)
 
 print(Guests[0].title() + "\n   You are still among my invitees")
 print(Guests[1].title() + "\n   You are still among my invitees")
-del Guests[0]
+del Guests[1]
+print(Guests)
 del Guests[0]
 print(Guests)
 
