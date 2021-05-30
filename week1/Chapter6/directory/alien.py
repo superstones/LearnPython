@@ -25,5 +25,3 @@ alien_3 = {'color': 'green', 'points': 5}
 print("The aline is " + alien_3['color'] + ".")
 alien_3['color'] = 'yellow'
 print("The aline now is " + alien_3['color'] + ".")
-
-
