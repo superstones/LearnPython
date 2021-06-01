@@ -6,6 +6,7 @@ finished_sandwiches = []
 print("Pastrami sandwiches sold out")
 while 'pastrami' in sandwich_orders:
     sandwich_orders.remove('pastrami')
+
 print(sandwich_orders)
 while sandwich_orders:
     sandwich_order = sandwich_orders.pop()

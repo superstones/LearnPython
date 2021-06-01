@@ -7,6 +7,7 @@ while polling_active:
     repeat = input("Would you like to let another person respond? (yes/no) ")
     if repeat == 'no':
         polling_active = False
+
 print("\n--- Poll Results ---")
 for name, dream_place in dream_places.items():
     print(name.title() + " would like to visit " + dream_place.title())
