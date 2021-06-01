@@ -18,7 +18,7 @@ def make_great(names):
 magicians_name = ['Harry Houdini', 'David Copperfield', 'Criss Angel']
 show_magicians(magicians_name)
 
-print("\n")
+print("\nGreat magicians")
 great_magicians = make_great(magicians_name[:])
 show_magicians(great_magicians)
 
