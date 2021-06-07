@@ -28,18 +28,18 @@ class Car():
         self.odometer_reading += miles
 
 
-my_new_car = Car('audi', 'q5', 2021)
-print(my_new_car.get_descriptive_name())
-
-# 修改属性的值
-# 1.直接修改属性的值
-my_new_car.odometer_reading = 23
-my_new_car.read_odometer()
-
-# 2.通过方法修改属性的值
-my_new_car.update_odometer(1)
-my_new_car.read_odometer()
-
-# 3.通过方法对属性的值进行递增
-my_new_car.increment_odometer(100)
-my_new_car.read_odometer()
+# my_new_car = Car('audi', 'q5', 2021)
+# print(my_new_car.get_descriptive_name())
+#
+# # 修改属性的值
+# # 1.直接修改属性的值
+# my_new_car.odometer_reading = 23
+# my_new_car.read_odometer()
+#
+# # 2.通过方法修改属性的值
+# my_new_car.update_odometer(1)
+# my_new_car.read_odometer()
+#
+# # 3.通过方法对属性的值进行递增
+# my_new_car.increment_odometer(100)
+# my_new_car.read_odometer()

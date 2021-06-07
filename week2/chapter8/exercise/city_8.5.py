@@ -4,5 +4,6 @@ def describe_city(name, country='france'):
 
 
 describe_city('Paris')
-describe_city('Marseille')
+describe_city('Provence')
 describe_city('Montpellier')
+describe_city('Hawaii State', country='american')
