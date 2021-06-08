@@ -1,0 +1,4 @@
+In Python you can learn type of data.
+In Python you can learn use of lists, tuples, and dictionaries.
+In Python you can learn definition and use of functions.
+In Python you can learn processing and manipulation of file content.
