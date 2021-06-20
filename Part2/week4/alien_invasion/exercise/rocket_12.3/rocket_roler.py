@@ -9,12 +9,13 @@ class Rocket():
         self.ai_settings = ai_settings
         # 加载角色图像并获取其外接矩形
         self.image = pygame.image.load('images/rocket.bmp')
+        self.image = pygame.transform.rotate(self.image, -90)
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
-        # 将每个新角色放在屏幕中央
-        self.rect.centerx = self.screen_rect.centerx
+        # 将每个新角色放在屏幕左侧
         self.rect.centery = self.screen_rect.centery
+        self.rect.left = self.screen_rect.left
 
         # 在飞船的属性center中存储小数值
         self.center = float(self.rect.centerx)
